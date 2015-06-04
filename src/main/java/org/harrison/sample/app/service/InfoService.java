@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class InfoService {
-  public Map<String, String> getSystemProperties() {
+  public Map<String, String> environment() {
     return System.getenv();
   }
 }
